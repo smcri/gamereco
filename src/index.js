@@ -4,6 +4,7 @@ import "./style.css";
 import questionAPI from './question'; 
 import QuestionBox from './components/QuestionBox'; 
 import Result from './components/ResultBox'; 
+import gameAPI from './games'
 
 class Quiz extends Component { 
 constructor() { 
@@ -11,7 +12,8 @@ constructor() {
 	this.state = { 
 	questionBank: [], 
 	score: 0, 
-	responses: 0 
+	responses: 0,
+	recommendationBank: [] 
 	}; 
 } 
 
@@ -45,7 +47,14 @@ computeAnswer = (answer, correctAns) => {
 // componentDidMount function to get question 
 componentDidMount() { 
 	this.getQuestions(); 
-} 
+}
+
+getRecommendation = () => {
+	gameAPI().then(recommendation => {
+	this.setState({recommendationBank: recommendation});
+	});
+
+}; 
 
 render() { 
 	return (<div className="container"> 
@@ -61,8 +70,10 @@ render() {
 	selected={answer => this.computeAnswer(answer, correct)}/>)} 
 
 	{ 
+		
 		this.state.responses === 5 
-		? (<Result score={this.state.score} 
+		? (	this.getRecommendation,
+			<Result score={this.state.score} 
 			playAgain={this.playAgain}/>) 
 		: null
 	} 

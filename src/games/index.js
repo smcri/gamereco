@@ -145,3 +145,6 @@ const gamesDB = [
         wiki: ""
     }, 
 ];
+
+export default (n = 1) =>
+Promise.resolve(gamesDB.sort(() => 0.5 - Math.Random()).slice(0,n)) 

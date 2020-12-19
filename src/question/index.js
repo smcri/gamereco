@@ -1,7 +1,7 @@
 const qBank = [ 
 { 
 	question: 
-	"What do you prefer?", 
+	"What style of gameplay do you prefer?", 
 	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
 	correct: "Tactics", 
 	questionId: "099099"
@@ -9,7 +9,7 @@ const qBank = [
 { 
 	question: 
 	"Which civilization so you want to be immersed in?", 
-	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
+	answers: ["Rome", "Egypt", "Modern", "Persia","Mesopotamia"], 
 	correct: "Rome", 
 	questionId: "093909"
 }, 
@@ -17,103 +17,23 @@ const qBank = [
 	question: 
 	"Preffered difficulty level?", 
 	answers: ["1", "2", "3", "4"], 
-	correct: "Tactics", 
+	correct: "3", 
 	questionId: "009039"
 }, 
 { 
 	question: 
-	"Which civilization so you want to be immersed in?", 
-	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
-	correct: "Rome", 
+	"Which genre do you prefer?", 
+	answers: ["Strategy", "luck"], 
+	correct: "Strategy", 
 	questionId: "090089"
 }, 
 { 
 	question: 
-	"What do you prefer?", 
-	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
-	correct: "Tactics", 
+	"Which subgenre do you prefer?", 
+	answers: ["Racing", "Family", "Civilization", "Economy","Politics"], 
+	correct: "Economy", 
 	questionId: "01010101"
 }, 
-{ 
-	question: 
-	"Which civilization so you want to be immersed in?", 
-	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
-	correct: "Rome", 
-	questionId: "092299"
-}, 
-{ 
-	question: 
-	"Preffered difficulty level?", 
-	answers: ["1", "2", "3", "4"], 
-	questionId: "099099"
-}, 
-{ 
-	question: 
-	"What do you prefer?", 
-	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
-	correct: "Tactics", 
-	questionId: "222099"
-}, 
-{  
-	question: 
-	"Which civilization so you want to be immersed in?", 
-	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
-	correct: "Rome",
-	questionId: "2222099"
-}, 
-{ 
-	question: 
-	"What do you prefer?", 
-	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
-	correct: "Tactics", 
-	questionId: "09922099"
-}, 
-{ 
-	question: 
-	"Preffered difficulty level?", 
-	answers: ["1", "2", "3", "4"], 
-	questionId: "222292099"
-}, 
-{ 
-	question: 
-	"Which civilization so you want to be immersed in?", 
-	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
-	correct: "Rome", 
-	questionId: "0998999099"
-}, 
-{ 
-	question: 
-	"What do you prefer?", 
-	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
-	correct: "Tactics", 
-	questionId: "099099"
-}, 
-{ 
-	question: 
-	"Preffered difficulty level?", 
-	answers: ["1", "2", "3", "4"],
-	questionId: "099099"
-}, 
-{ 
-	question: 
-	"What do you prefer?", 
-	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
-	correct: "Tactics",
-	questionId: "099099"
-}, 
-{ 
-	question: 
-	"Which civilization so you want to be immersed in?", 
-	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
-	correct: "Rome",
-}, 
-{ 
-	question: 
-	"Preffered difficulty level?", 
-	answers: ["1", "2", "3", "4"], 
-	questionId: "0912219099"
-}, 
-
 ]; 
 
 // n = 5 to export 5 question 
