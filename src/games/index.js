@@ -1,8 +1,9 @@
 const gamesDB = [ 
     { 
         game: "Mancala",  
-        category: ["African","Egyptian"], 
+        category: ["Egyptian"], 
         gameId: "1",
+        sub: [""],
         genre: ["strategy"],
         difficulty: "3",
         playSite: "https://mancala.playdrift.com",
@@ -12,6 +13,7 @@ const gamesDB = [
         game: "Seega",  
         category: ["Egyptian"], 
         gameId: "2",
+        sub: [""],
         genre: ["strategy"],
         difficulty: "3",
         playSite: "",
@@ -21,7 +23,8 @@ const gamesDB = [
         game: "Hounds & Jackals",  
         category: ["Egyptian"], 
         gameId: "3",
-        genre: ["strategy","racing"],
+        sub: ["racing"],
+        genre: ["strategy"],
         difficulty: "2",
         playSite: "http://www.playonlinedicegames.com/hounds-and-jackals",
         wiki: "https://en.wikipedia.org/wiki/Hounds_and_Jackals"
@@ -30,15 +33,17 @@ const gamesDB = [
         game: "Senet",  
         category: ["Egyptian"], 
         gameId: "4",
-        genre: ["strategy","racing"],
+        sub: ["racing"],
+        genre: ["strategy"],
         difficulty: "3",
         playSite: "http://www.playonlinedicegames.com/senet",
         wiki: "https://en.wikipedia.org/wiki/Senet"
     }, 
     { 
         game: "Royal game of Ur",  
-        category: ["Sumerian","Middle Eastern","Mesopotamia"], 
+        category: ["Mesopotamia"], 
         gameId: "5",
+        sub: [""],
         genre: ["strategy"],
         difficulty: "4",
         playSite: "https://royalur.net/",
@@ -48,7 +53,8 @@ const gamesDB = [
         game: "Nard",  
         category: ["Persian"], 
         gameId: "6",
-        genre: ["strategy","Abstract"],
+        sub: [""],
+        genre: ["strategy"],
         difficulty: "3",
         playSite: "https://nardgammon.com/en/",
         wiki: "https://en.wikipedia.org/wiki/Nard_(game)"
@@ -57,6 +63,7 @@ const gamesDB = [
         game: "Rota",  
         category: ["Roman"], 
         gameId: "7",
+        sub: [""],
         genre: ["strategy"],
         difficulty: "3",
         playSite: "https://www.tinkercad.com/things/eglM7dBqmvj-rota-board-game",
@@ -66,7 +73,8 @@ const gamesDB = [
         game: "Anti-Monopoly",  
         category: ["Modern"], 
         gameId: "8",
-        genre: ["strategy","trading"],
+        sub: ["trading"],
+        genre: ["strategy"],
         difficulty: "2",
         playSite: "https://www.iplay.com/games/anti-opoly-the-anti-monopoly-game",
         wiki: "https://en.wikipedia.org/wiki/Anti-Monopoly"
@@ -75,7 +83,8 @@ const gamesDB = [
         game: "Game of Life",  
         category: ["Modern"], 
         gameId: "9",
-        genre: ["luck","economic"],
+        sub: ["economic"],
+        genre: ["luck"],
         difficulty: "2",
         playSite: "https://playgameoflife.com/",
         wiki: "https://en.wikipedia.org/wiki/The_Game_of_Life"
@@ -84,7 +93,8 @@ const gamesDB = [
         game: "Cluedo",  
         category: ["Modern"], 
         gameId: "10",
-        genre: ["strategy","mystery"],
+        sub: ["mystery"],
+        genre: ["strategy"],
         difficulty: "3",
         playSite: "https://www.flashgames.jp/Cluedo-online",
         wiki: "https://en.wikipedia.org/wiki/Cluedo"
@@ -94,7 +104,8 @@ const gamesDB = [
         game: "Yahtzee",  
         category: ["Modern"], 
         gameId: "11",
-        genre: ["luck","family"],
+        sub: ["family"],
+        genre: ["luck"],
         difficulty: "1",
         playSite: "https://cardgames.io/yahtzee/",
         wiki: "https://en.wikipedia.org/wiki/Yahtzee"
@@ -103,7 +114,8 @@ const gamesDB = [
         game: "Carcassonne",  
         category: ["Modern"], 
         gameId: "12",
-        genre: ["strategy","city building"],
+        sub: ["city building"],
+        genre: ["strategy"],
         difficulty: "1",
         playSite: "https://www.kongregate.com/games/badim/carcassonne",
         wiki: "https://en.wikipedia.org/wiki/Carcassonne_(board_game)"
@@ -112,7 +124,8 @@ const gamesDB = [
         game: "Dead of Winter",  
         category: ["Modern"], 
         gameId: "13",
-        genre: ["strategy","cooperative"],
+        sub: ["cooperative"],
+        genre: ["strategy"],
         difficulty: "2",
         playSite: "https://www.fantasyflightgames.com/en/products/dead-of-winter/",
         wiki: ""
@@ -121,7 +134,8 @@ const gamesDB = [
         game: "Twilight Struggle",  
         category: ["Modern"], 
         gameId: "14",
-        genre: ["strategy","political","wargame"],
+        sub: ["political","wargame"],
+        genre: ["strategy"],
         difficulty: "4",
         playSite: "https://store.steampowered.com/app/406290/Twilight_Struggle/",
         wiki: "https://en.wikipedia.org/wiki/Twilight_Struggle"
@@ -130,7 +144,8 @@ const gamesDB = [
         game: "Euphoria: Build a Better Dystopia",  
         category: ["Modern"], 
         gameId: "15",
-        genre: ["strategy","science fiction"],
+        sub: ["science fiction"],
+        genre: ["strategy"],
         difficulty: "3",
         playSite: "https://store.steampowered.com/app/417300/Tabletop_Simulator__Euphoria_Build_a_Better_Dystopia/",
         wiki: ""
@@ -139,12 +154,13 @@ const gamesDB = [
         game: "Antiquity",  
         category: ["Modern"], 
         gameId: "16",
-        genre: ["strategy","civilization","city building"],
+        sub: ["civilization","city building"],
+        genre: ["strategy"],
         difficulty: "2",
         playSite: "http://play.boardgamecore.net/",
         wiki: ""
     }, 
 ];
 
-export default (n = 1) =>
+export default (n = 16) =>
 Promise.resolve(gamesDB.sort(() => 0.5 - Math.Random()).slice(0,n)) 
