@@ -50,7 +50,7 @@ componentDidMount() {
 render() { 
 	return (<div className="container"> 
 	<div className="title"> 
-		QuizOn 
+		Game recommendation engine
 	</div> 
 
 	{this.state.questionBank.length > 0 && 

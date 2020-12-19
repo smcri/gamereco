@@ -1,121 +1,116 @@
 const qBank = [ 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"What do you prefer?", 
+	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
+	correct: "Tactics", 
 	questionId: "099099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Which civilization so you want to be immersed in?", 
+	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
+	correct: "Rome", 
 	questionId: "093909"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Preffered difficulty level?", 
+	answers: ["1", "2", "3", "4"], 
+	correct: "Tactics", 
 	questionId: "009039"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Which civilization so you want to be immersed in?", 
+	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
+	correct: "Rome", 
 	questionId: "090089"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"What do you prefer?", 
+	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
+	correct: "Tactics", 
 	questionId: "01010101"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Which civilization so you want to be immersed in?", 
+	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
+	correct: "Rome", 
 	questionId: "092299"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Preffered difficulty level?", 
+	answers: ["1", "2", "3", "4"], 
 	questionId: "099099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"What do you prefer?", 
+	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
+	correct: "Tactics", 
 	questionId: "222099"
 }, 
-{ 
+{  
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Which civilization so you want to be immersed in?", 
+	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
+	correct: "Rome",
 	questionId: "2222099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"What do you prefer?", 
+	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
+	correct: "Tactics", 
 	questionId: "09922099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Preffered difficulty level?", 
+	answers: ["1", "2", "3", "4"], 
 	questionId: "222292099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Which civilization so you want to be immersed in?", 
+	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
+	correct: "Rome", 
 	questionId: "0998999099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"What do you prefer?", 
+	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
+	correct: "Tactics", 
 	questionId: "099099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Preffered difficulty level?", 
+	answers: ["1", "2", "3", "4"],
 	questionId: "099099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"What do you prefer?", 
+	answers: ["Luck", "Tactics", "Memory", "Reflexes"], 
+	correct: "Tactics",
 	questionId: "099099"
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
-	questionId: "09459099"
+	"Which civilization so you want to be immersed in?", 
+	answers: ["Rome", "Egypt", "Mesopotamia", "Persia"], 
+	correct: "Rome",
 }, 
 { 
 	question: 
-	"how build the app ?", 
-	answers: ["vinayak", "sarthak", "somil", "devesh"], 
-	correct: "vinayak", 
+	"Preffered difficulty level?", 
+	answers: ["1", "2", "3", "4"], 
 	questionId: "0912219099"
 }, 
 
