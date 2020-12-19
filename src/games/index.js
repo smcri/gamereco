@@ -22,7 +22,7 @@ const gamesDB = [
         category: ["Egyptian"], 
         gameId: "3",
         genre: ["strategy","racing"],
-        difficulty: "3",
+        difficulty: "2",
         playSite: "http://www.playonlinedicegames.com/hounds-and-jackals",
         wiki: "https://en.wikipedia.org/wiki/Hounds_and_Jackals"
     }, 
@@ -40,7 +40,7 @@ const gamesDB = [
         category: ["Sumerian","Middle Eastern","Mesopotamia"], 
         gameId: "5",
         genre: ["strategy"],
-        difficulty: "3",
+        difficulty: "4",
         playSite: "https://royalur.net/",
         wiki: "https://en.wikipedia.org/wiki/Royal_Game_of_Ur"
     }, 
@@ -67,7 +67,7 @@ const gamesDB = [
         category: ["Modern"], 
         gameId: "8",
         genre: ["strategy","trading"],
-        difficulty: "3",
+        difficulty: "2",
         playSite: "https://www.iplay.com/games/anti-opoly-the-anti-monopoly-game",
         wiki: "https://en.wikipedia.org/wiki/Anti-Monopoly"
     }, 
@@ -76,7 +76,7 @@ const gamesDB = [
         category: ["Modern"], 
         gameId: "9",
         genre: ["luck","economic"],
-        difficulty: "3",
+        difficulty: "2",
         playSite: "https://playgameoflife.com/",
         wiki: "https://en.wikipedia.org/wiki/The_Game_of_Life"
     }, 
@@ -95,7 +95,7 @@ const gamesDB = [
         category: ["Modern"], 
         gameId: "11",
         genre: ["luck","family"],
-        difficulty: "3",
+        difficulty: "1",
         playSite: "https://cardgames.io/yahtzee/",
         wiki: "https://en.wikipedia.org/wiki/Yahtzee"
     }, 
@@ -104,7 +104,7 @@ const gamesDB = [
         category: ["Modern"], 
         gameId: "12",
         genre: ["strategy","city building"],
-        difficulty: "3",
+        difficulty: "1",
         playSite: "https://www.kongregate.com/games/badim/carcassonne",
         wiki: "https://en.wikipedia.org/wiki/Carcassonne_(board_game)"
     }, 
@@ -113,7 +113,7 @@ const gamesDB = [
         category: ["Modern"], 
         gameId: "13",
         genre: ["strategy","cooperative"],
-        difficulty: "3",
+        difficulty: "2",
         playSite: "https://www.fantasyflightgames.com/en/products/dead-of-winter/",
         wiki: ""
     }, 
@@ -122,7 +122,7 @@ const gamesDB = [
         category: ["Modern"], 
         gameId: "14",
         genre: ["strategy","political","wargame"],
-        difficulty: "3",
+        difficulty: "4",
         playSite: "https://store.steampowered.com/app/406290/Twilight_Struggle/",
         wiki: "https://en.wikipedia.org/wiki/Twilight_Struggle"
     }, 
@@ -140,7 +140,7 @@ const gamesDB = [
         category: ["Modern"], 
         gameId: "16",
         genre: ["strategy","civilization","city building"],
-        difficulty: "3",
+        difficulty: "2",
         playSite: "http://play.boardgamecore.net/",
         wiki: ""
     }, 
