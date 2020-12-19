@@ -1,10 +1,10 @@
 import React,{useState} from "react";
 import "../style.css";
-import {CSSTransition} from 'react-transition-group';
 
 
 const QuestionBox = ({ question, options,selected}) => {
   const [answer, setAnswer] = useState(options);
+  const [wobble, setWobble] = React.useState(0);
   return (
     <div className="questionBox">
         <div className="question">{question}</div>
@@ -15,7 +15,9 @@ const QuestionBox = ({ question, options,selected}) => {
               onClick={()=>{
                     setAnswer([text]);
                     selected(text);
-                  }}> {text}
+                    setWobble(1);
+                  }}onAnimationEnd={() => setWobble(0)}
+      wobble={wobble}> {text}
          </button>
         ))}
     </div>
